@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@100&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+.content-container {
+    width: 1272px;
+    height: 73px;
+    border: 1px solid grey;
+    margin-top: 20px;
+    margin-left: 36px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    margin-top: 7px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    width: 100%;
+    color: #000000;
+}
+
+.btn {
+    margin-right: 13px;
+}
+
+.cancel-btn {
+    width: 68px;
+    height: 35px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #F24726;
+    border-radius: 4px;
+    background: #FFFFFF;
+    border-color: #F24726;
+}
+
+.save-btn {
+    width: 147px;
+    height: 36px;
+    background: #000000;
+    color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.icon{
+    width: 32px;
+    height: 32px;
+}
+.Information-Content {
+    width: 1224px;
+    height: 50px;
+}
+hr {
+    width: 1024px;
+}
+.information-type {
+    width: 208px;
+    height: 46px;
+    margin-top: 6px;
+    font-family: 'Manrope';
+    font-style: bolder;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+.form-content{
+    width: 90%;
+    margin: auto;
+    margin-top: 11px;
+}
+.contents{
+    width: 90%;
+    margin: auto;
+    margin-top: 21px;
+  
+}
+/* Form */
+
+label {
+    display: block !important;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.72);
+}
+.UserName {
+    margin-left: 36px;
+}
+.LastName{
+    margin-left: 36px;
+}
+.ContactNumber{
+    margin-left: 36px;
+}
+.Country {
+    margin-left: 36px;
+}
+input {
+    width: 314px;
+    padding: 10px;
+    height: 36px;
+    font-family: 'Manrope'!important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    color: #000000;
+}
+select{
+    width: 314px;
+    padding: 10px;
+    height: 36px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000; 
+}
+#Verification {
+    height: 15px;
+}
+.verification-box {
+    margin-left: -148px;
+}
+.verification-text {
+    margin-left: -140px;
+}
+.profile-icon {
+    width: 104px;
+    height: 104px;
+    border-radius: 55px;
+    background: #4E7C4C;
+}
+.edit-btn {
+    margin-top: 13px;
+}
+button {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000080;
+    background: transparent;
+    border-radius: 12px;
+    border: 1px solid #000080;
+}
+.profile-information {
+    height: 243px;
+    width: 30%;
+}
+.profile-details{
+    gap: 106px;
+}
+.gender {
+    display: grid;
+    gap: 3px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.72);
+}
+.gender Select {
+    box-sizing: border-box;
+    width: 248px;
+    height: 36px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+.dob {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.72);
+}
+.dob input {
+    box-sizing: border-box;
+    width: 261px;
+    height: 36px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+.h5 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 25px !important;
+    color: #000000;
+}
+.School-Percentage {
+    width: 90%;
+    margin: auto;
+}
+.Work-Experience {
+    width: 90%;
+    margin: auto;
+}
+.Skills {
+    width: 90%;
+    margin: auto;
+}
+.High-Qualifications {
+    width: 90%;
+    margin: auto;
+    gap: 137px;
+}
+.percentage {
+    margin-top: 44px;
+}
+.dropdown {
+    box-sizing: border-box;
+    width: 314px;
+    height: 36px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+
